@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <style type="text/css">
+
+        /*
+
+        --------------------------------------------
+        leave this out of your css inlining, then add back before finishing
+        */
+        .ReadMsgBody
+        { width: 100%;}
+        .ExternalClass
+        {width: 100%;}
+        /*
+        --------------------------------------------
+
+        */
+
+
+        img {
+            display: block;
+            line-height: 100%;
+            outline: none;
+            text-decoration: none;
+            border: 0 none;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        td {
+            vertical-align: top;
+            text-align:left;
+        }
+
+        /*you can safely use padding on td elements only.*/
+        .header{background:#f1f1f1;}
+        .header .padding{padding:20px;}
+        .standard {background:#f5f5f5;}
+        .standard .padding{padding:10px;}
+        .footer {background:#f9f9f9;}
+        .footer .padding{padding:16px;}
+
+    </style>
+</head>
+<body>
+<center>
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" align="center" bgcolor="#ffffff">
+        <tr>
+            <td align="center">
+                <!-- change the width here to the width of your design -->
+                <table cellpadding="0" cellspacing="0" border="0" align="center" width="600">
+                    <tr>
+                        <td>
+                            Hello.
+
+                            <!-- table[cellpadding=0][cellspacing=0][border=0][width="100%"][class="header"]>tr>td.padding -->
+                            <table cellpadding="0" cellspacing="0" border="0" width="100%" class="header">
+                                <tr>
+                                    <td class="padding">3 col</td>
+                                    <td class="padding">3 col</td>
+                                    <td class="padding">3 col</td>
+                                </tr>
+                            </table>
+
+                            <!-- table[cellpadding=0][cellspacing=0][border=0][width="100%"][class="standard"]>tr>td.padding -->
+                            <table cellpadding="0" cellspacing="0" border="0" width="100%" class="standard">
+                                <tr>
+                                    <td class="padding">1 col</td>
+                                </tr>
+                            </table>
+
+                            <!-- table[cellpadding=0][cellspacing=0][border=0][width="100%"][class="footer"]>tr*3>td.padding*2 -->
+                            <table cellpadding="0" cellspacing="0" border="0" width="100%" class="footer">
+                                <tr>
+                                    <td class="padding">2 col</td>
+                                    <td class="padding">2 col</td>
+                                </tr>
+                                <tr>
+                                    <td class="padding">2 col</td>
+                                    <td class="padding">2 col</td>
+                                </tr>
+                                <tr>
+                                    <td class="padding">2 col</td>
+                                    <td class="padding">2 col</td>
+                                </tr>
+                            </table>
+
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</center>
+
+</body>
+</html>
